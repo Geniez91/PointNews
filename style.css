@@ -1,0 +1,41 @@
+
+.imgtest{
+    width: 100px;
+}
+.morph div img {
+    width: 200px;
+    height: 150px;
+    -webkit-filter: grayscale(0) blur(0px);
+    filter: grayscale(0) blur(0px);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+   
+  .morph div:hover img {
+    width: 150px; /* on affiche l'image au carré */
+    height: 150px;
+    border-radius: 50%;  /* on arrondit l'image */
+    -webkit-transform: rotate(360deg); /* rotation de l'image */
+    transform: rotate(360deg);
+  }
+  .formtest{
+    border:1px solid red;
+  }
+
+  .borderForm{
+    border: 1px solid grey;
+
+  }
+  .divborder{
+border: 1px solid black;
+border-radius: 5%;
+margin-bottom: 20px;
+background-color: peru;
+  }
+  .divborder2{
+    border: 1px solid black;
+border-radius: 5%;
+  }
+  .marg2{
+    margin-left: 5px;
+  }
